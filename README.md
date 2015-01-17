@@ -20,14 +20,11 @@ Using this you can create either a touch object for each electrode and map it to
 1. Download the [.zip](https://github.com/BareConductive/generic-usb-midi-interface/archive/public.zip) or clone the repository to your local machine - if downloading the .zip, extract the contents somewhere that suits you.
 1. Take the **Midi_drum_garageband** folder and move it to **Arduino Sketchbook Folder**. This will be different for each operating system: 
 
-	**Windows**
-	Libraries\\Documents\\Arduino  or  My Documents\\Arduino	
+	**Windows:** Libraries\\Documents\\Arduino  or  My Documents\\Arduino	
 	
-	**Mac**
-	Documents/Arduino
+	**Mac:** Documents/Arduino
 	
-	**Linux (Ubuntu)**
-	Home/Arduino
+	**Linux (Ubuntu):** Home/Arduino
 
 
 	If this folder does not exist, create it first.

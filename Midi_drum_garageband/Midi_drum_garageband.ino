@@ -144,8 +144,7 @@ void loop() {
           MPR121.updateFilteredData(); // does this for continuous proximity data
           //map the value (FilteredData) between 0 and 127 to change the volume depending on the Drum Beat (electrode)
           e_map = abs(map(MPR121.getFilteredData(i)/4,0,250,127,0));
-          //if (e_map > 127) { e_map = 127; }
-          e.m3 = e_map; // volume
+          e.m3 = e_map; // assign volume
           
           // turn on the onboard LED and
           // send a "note on" message with the appropriate note set          

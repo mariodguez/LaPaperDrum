@@ -1,13 +1,12 @@
 /*******************************************************************************
 
- Bare Conductive Touch and Proximity USB MIDI interface
+ Bare Conductive Touch Board USB MIDI interface for Drum Kit
  ------------------------------------------------------
  
- Midi_interface_generic.ino - USB MIDI touch and proximity example
+ basado en el codigo de Midi_interface_generic.ino - USB MIDI touch and proximity example
+ https://github.com/BareConductive/generic-usb-midi-interface
 
- Allows the mapping of each electrode to a key or control modulator in a 
- (relatively) simple manner. See the comments for details and experiment
- for best results.
+ See the comments for details and experiment for best results.
  
  Requires Arduino 1.5.6+ or greater and ARCore Hardware Cores 
  https://github.com/rkistner/arcore - remember to select 

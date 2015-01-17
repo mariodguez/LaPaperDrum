@@ -1,10 +1,8 @@
 # LaPaperDrum
 Aquí almaceno el código para transformar la [Touch Board de Bare Conductive](http://www.bareconductive.com) en una Drum kit para GarageBand
 
-# Bare Conductive Touch Board USB MIDI interface code for Drum Kit
-This is an extension of the simple touch-to-USB-MIDI code for the  which adds generic support for both touch buttons and proximity sensors.
-
-Using this you can create either a touch or proximity object for each electrode and map it to either a keypress or slider output. This is all documented by example in the comments.
+## Bare Conductive Touch Board USB MIDI interface code for Drum Kit
+Using this you can create either a touch object for each electrode and map it to either a keypress.
 
 ## Requirements
 * [Arduino](http://arduino.cc/en/Main/Software) 1.5.6 or later
@@ -33,6 +31,10 @@ Using this you can create either a touch or proximity object for each electrode 
 	**Mac**
 	
 	Documents/Arduino
+	
+	**Linux (Ubuntu)**
+	
+	Home/Arduino
 
 
 	If this folder does not exist, create it first.

@@ -21,19 +21,12 @@ Using this you can create either a touch object for each electrode and map it to
 1. Take the **Midi_drum_garageband** folder and move it to **Arduino Sketchbook Folder**. This will be different for each operating system: 
 
 	**Windows**
-	
-	Libraries\\Documents\\Arduino
-	
-	or
-	
-	My Documents\\Arduino	
+	Libraries\\Documents\\Arduino  or  My Documents\\Arduino	
 	
 	**Mac**
-	
 	Documents/Arduino
 	
 	**Linux (Ubuntu)**
-	
 	Home/Arduino
 
 

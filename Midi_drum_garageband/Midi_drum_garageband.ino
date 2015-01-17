@@ -128,7 +128,7 @@ void setup() {
   MPR121.updateAll();
 }
 
-int e_map = 0;
+int e_map = 0; // for map volume
 
 void loop() {
   // check note electrodes
@@ -138,15 +138,14 @@ void loop() {
       if(MIDIobjects[i].type==MIDI_NOTE){ // if this is a note type object...
         e.type = 0x08;
         e.m2 = MIDIobjects[i].noteNumber; // set note number
-        //e.m3 = 127;  // maximum volume
         if(MPR121.isNewTouch(i)){
           // if we have a new touch,
           
           MPR121.updateFilteredData(); // does this for continuous proximity data
           //map the value (FilteredData) between 0 and 127 to change the volume depending on the Drum Beat (electrode)
           e_map = abs(map(MPR121.getFilteredData(i)/4,0,250,127,0));
-          if (e_map > 127) { e_map = 127; }
-          e.m3 = e_map;
+          //if (e_map > 127) { e_map = 127; }
+          e.m3 = e_map; // volume
           
           // turn on the onboard LED and
           // send a "note on" message with the appropriate note set          

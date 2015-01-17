@@ -3,6 +3,7 @@ Aquí almaceno el código para transformar la [Touch Board de Bare Conductive](h
 
 ## Bare Conductive Touch Board USB MIDI interface code for Drum Kit
 Using this you can create either a touch object for each electrode and map it to either a keypress.
+Volume depends on the emphasis Drum Beat.
 
 ## Requirements
 * [Arduino](http://arduino.cc/en/Main/Software) 1.5.6 or later

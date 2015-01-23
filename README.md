@@ -18,7 +18,7 @@ Volume depends on the emphasis Drum Beat.
 ## Install
 
 1. Close the Arduino IDE if you have it open.
-1. Download the [.zip](https://github.com/BareConductive/generic-usb-midi-interface/archive/public.zip) or clone the repository to your local machine - if downloading the .zip, extract the contents somewhere that suits you.
+1. Download the [.zip](https://github.com/mariodguez/LaPaperDrum/archive/master.zip) or clone the repository to your local machine - if downloading the .zip, extract the contents somewhere that suits you.
 1. Take the **Midi_drum_garageband** folder and move it to **Arduino Sketchbook Folder**. This will be different for each operating system: 
 
 	**Windows:** Libraries\\Documents\\Arduino  or  My Documents\\Arduino	
